@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>939</width>
+    <height>750</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>[AI 피부 메이크업 추천]</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    QWidget {
+        background-color: #FDFCF0;
+        font-family: 'DejaVu Sans', 'NanumBarunGothic', 'NanumGothic', 'Malgun Gothic', sans-serif;
+    }
+   </string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>30</y>
+     <width>400</width>
+     <height>51</height>
+    </rect>
+  </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+     color: #5D4037;
+    </string>
+   </property>
+   <property name="text">
+    <string>● 어떤 피부 고민이 있으신가요?</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  
+  <!-- 성별 선택 -->
+  <widget class="QComboBox" name="cb_gender">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>100</y>
+     <width>150</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <item><property name="text"><string>성별 선택</string></property></item>
+   <item><property name="text"><string>여성</string></property></item>
+   <item><property name="text"><string>남성</string></property></item>
+  </widget>
+
+  <!-- 연령대 선택 -->
+  <widget class="QComboBox" name="cb_age">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>100</y>
+     <width>150</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <item><property name="text"><string>연령대 선택</string></property></item>
+   <item><property name="text"><string>20대</string></property></item>
+   <item><property name="text"><string>30대</string></property></item>
+   <item><property name="text"><string>40대</string></property></item>
+   <item><property name="text"><string>50대 이상</string></property></item>
+  </widget>
+
+  <!-- 피부 타입 선택 -->
+  <widget class="QComboBox" name="cb_skin_type">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>100</y>
+     <width>180</width>
+     <height>40</height>
+    </rect>
+   </property>
+   <item><property name="text"><string>피부 타입 선택</string></property></item>
+   <item><property name="text"><string>건성</string></property></item>
+   <item><property name="text"><string>지성</string></property></item>
+   <item><property name="text"><string>복합성</string></property></item>
+   <item><property name="text"><string>정상</string></property></item>
+  </widget>
+
+  <widget class="QLineEdit" name="le_keyword">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>160</y>
+     <width>500</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+     QLineEdit {
+         background-color: #FFFFFF;
+         border: 2px solid #E0E0E0;
+         border-radius: 15px;
+         padding-left: 15px;
+         color: #333333;
+     }
+     QLineEdit:focus {
+         border: 2px solid #81C784;
+     }
+    </string>
+   </property>
+   <property name="placeholderText">
+    <string>피부 고민을 입력하세요 (예: 여드름 자극 줄이는 법)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_recommend">
+   <property name="geometry">
+    <rect>
+     <x>610</x>
+     <y>160</y>
+     <width>181</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+     QPushButton {
+         background-color: #81C784;
+         color: white;
+         border-radius: 15px;
+         border: none;
+     }
+     QPushButton:hover {
+         background-color: #66BB6A;
+     }
+     QPushButton:pressed {
+         background-color: #4CAF50;
+     }
+    </string>
+   </property>
+   <property name="text">
+    <string>추천 받기</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_recommendation">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>230</y>
+     <width>781</width>
+     <height>450</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+     QLabel {
+         background-color: #FFFFFF;
+         border: 2px solid #C8E6C9;
+         border-radius: 20px;
+         padding: 25px;
+         color: #424242;
+         line-height: 160%;
+     }
+    </string>
+   </property>
+   <property name="text">
+    <string>여기에 추천 결과가 표시됩니다.</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="wordWrap">
+    <bool>true</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

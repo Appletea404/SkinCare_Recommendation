@@ -1,0 +1,89 @@
+{
+  "Data_info": {
+    "License": "㈜데이터쿡",
+    "SEQ": "A000202_07_QA2"
+  },
+  "Source_info1": {
+    "Status1": "도서",
+    "Knowledge Data1": "이미다졸리디닐우레아는 제품에 혼입되면 시간이 지나면서 이미 발암물질로 확인되어 규제되고 있는 포름안데히드를 유출시키므로 화장품회사에서 사용을 기피하고 있으며 이 물질이 피부에 접촉되면 접촉성피부염을 유발할 수 있다(황신혜, 2009).",
+    "Title1": "개망초꽃 추출물의 화장품 방부효과",
+    "Author Name1": "김지윤, 김혜연",
+    "Publisher Name (Institution Name)1": "한국화장품미용학회",
+    "Year of Publication1": 2020,
+    "File Name1_1": "개망초꽃 추출물의 화장품 방부효과",
+    "File Extension1_1": "doc",
+    "File Name1_2": "개망초꽃 추출물의 화장품 방부효과",
+    "File Extension1_2": "json"
+  },
+  "Source_info2": {
+    "Status2": "",
+    "Knowledge Data2": "",
+    "Title2": "",
+    "Author Name2": "",
+    "Publisher Name (Institution Name)2": "",
+    "Year of Publication2": 0,
+    "File Name2_1": "",
+    "File Extension2_1": "",
+    "File Name2_2": "",
+    "File Extension2_2": ""
+  },
+  "Source_info3": {
+    "Status3": "",
+    "Knowledge Data3": "",
+    "Title3": "",
+    "Author Name3": "",
+    "Publisher Name (Institution Name)3": "",
+    "Year of Publication3": 0,
+    "File Name3_1": "",
+    "File Extension3_1": "",
+    "File Name3_2": "",
+    "File Extension3_2": ""
+  },
+  "Source_info4": {
+    "Status4": "",
+    "Knowledge Data4": "",
+    "Title4": "",
+    "Author Name4": "",
+    "Publisher Name (Institution Name)4": "",
+    "Year of Publication4": 0,
+    "File Name4_1": "",
+    "File Extension4_1": "",
+    "File Name4_2": "",
+    "File Extension4_2": ""
+  },
+  "Source_info5": {
+    "Status5": "",
+    "Knowledge Data5": "",
+    "Title5": "",
+    "Author Name5": "",
+    "Publisher Name (Institution Name)5": "",
+    "Year of Publication5": 0,
+    "File Name5_1": "",
+    "File Extension5_1": "",
+    "File Name5_2": "",
+    "File Extension5_2": ""
+  },
+  "Human_info": {
+    "Gender": "여성",
+    "Age": "20대",
+    "makeup frequency": "주 3~6회 정도 한다",
+    "frequent makeup products": "자외선 차단제 (선크림, 선쿠션, 선스프레이 등),쿠션/팩트/파우더,하이라이터/쉐이딩/픽서,립메이크업 (립스틱, 립틴트, 립라이너 등),아이메이크업 (아이라이너, 마스카라, 아이브로우, 아이섀도우 등)",
+    "important attributes": "커버력,지속력,트러블 여부",
+    "makeup purpose": "데일리",
+    "Skin Problem Type": "민감성 피부(예민성 피부)",
+    "Makeup focus areas": "얼굴 전체",
+    "skin care methods": "기초 화장품만 관련 제품으로 사용 중임,SNS나 인터넷 등에서 개선 방법을 탐색함"
+  },
+  "Skin_info": {
+    "worry level/situation": "스킨케어/메이크업 제품 변경 후",
+    "worry season": "계절과 관계 없음",
+    "Skin condition category": "복합성",
+    "Skin Brightness": "흰 피부"
+  },
+  "Annotation_info": {
+    "User Question": "20대 여성으로 민감성 피부입니다. 피부 톤은 흰 피부이며, 피부 타입은 복합성이고, 피부결은 복합성 피부결입니다. 평소에는 히알루론산, 티트리, 비타민C 성분이 들어간 제품을 사용하고 있으며, 계면활성제, 인공 향료, 실리콘 오일 성분은 피하고자 합니다. 병풀 성분에 예민한 반응이 있으며, 스킨케어나 메이크업 제품을 바꾼 직후 자주 트러블이 발생합니다. 메이크업 시에는 커버력, 지속력에 대한 고민이 있으며, 퍼프와 브러시를 사용해 메이크업을 합니다. 턱선과 광대 아래 붉은 여드름이 자주 생기며, 커버하려다가 더 자극이 가는 것 같아 고민입니다. 여드름 위에 베이스를 바를 때 자극을 줄일수 있는 방법을 알고 싶습니다.",
+    "Makeup Response": "민감하고 흰 피부톤의 20대 복합성 피부의 여드름 위에 베이스 자극을 완화하려면, 얇고 밀착력 있는 베이스가 도움이 됩니다. 특히 턱선이나 광대 아래의 붉은 여드름 부위에는 과하게 두껍지 않고 자연스러운 제형이 바람직합니다. 퍼프와 브러시를 사용할 때는 퍼프로 넓은 부위를 가볍게 정리하고, 요철이 있는 부분은 브러시 끝으로 살짝 올려 안정적으로 마무리합니다. 여드름 부위는 손끝으로 세게 누르지 말고 살짝 다진 뒤, 베이스를 소량씩 여러 지점에 두드리며 올리면 자극이 줄어듭니다. 마지막에는 퍼프로 문지르기보다 가볍게 압착해 표현을 균형 있게 유지합니다. 성분으로는 Soy 추출물을 추천하며, 이미다졸리디닐우레아 성분은 주의가 필요합니다. 새로운 성분이나 화장품을 사용할 때는 첩보 테스트를 통해 피부 반응을 확인하는 것이 좋습니다.",
+    "Recommended Ingredients": "Soy 추출물",
+    "Ingredients to Avoid": "이미다졸리디닐우레아"
+  }
+}

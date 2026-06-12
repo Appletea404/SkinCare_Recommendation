@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>939</width>
+    <height>686</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>🍿 AI 영화 도우미 🍿</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">
+    QWidget {
+        background-color: #F9F7F1;
+        font-family: 'Malgun Gothic', 'Apple SD Gothic Neo', sans-serif;
+    }
+   </string>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>50</y>
+     <width>331</width>
+     <height>51</height>
+    </rect>
+  </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+     color: #4A4A4A;
+    </string>
+   </property>
+   <property name="text">
+    <string>✨ 어떤 영화를 좋아하세요?</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="cb_title">
+   <property name="geometry">
+    <rect>
+     <x>360</x>
+     <y>55</y>
+     <width>551</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+     QComboBox {
+         background-color: #FFFFFF;
+         border: 2px solid #D1E8E2;
+         border-radius: 12px;
+         padding: 5px 10px;
+         color: #333333;
+     }
+     QComboBox::drop-down {
+         border: 0px;
+     }
+     QComboBox QAbstractItemView {
+         background-color: #FFFFFF;
+         border: 2px solid #D1E8E2;
+         selection-background-color: #D1E8E2;
+         selection-color: #333333;
+     }
+    </string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="le_keyword">
+   <property name="geometry">
+    <rect>
+     <x>90</x>
+     <y>150</y>
+     <width>331</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+     QLineEdit {
+         background-color: #FFFFFF;
+         border: 2px solid #EFE5D3;
+         border-radius: 15px;
+         padding-left: 15px;
+         color: #555555;
+     }
+     QLineEdit:focus {
+         border: 2px solid #FF9A8B;
+     }
+    </string>
+   </property>
+   <property name="placeholderText">
+    <string>키워드를 입력해봐요 (예: 엄마)</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="btn_recommend">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>150</y>
+     <width>181</width>
+     <height>45</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>14</pointsize>
+     <weight>75</weight>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+     QPushButton {
+         background-color: #FF9A8B;
+         color: white;
+         border-radius: 15px;
+         border: none;
+     }
+     QPushButton:hover {
+         background-color: #FF8473;
+     }
+     QPushButton:pressed {
+         background-color: #E26D5C;
+     }
+    </string>
+   </property>
+   <property name="text">
+    <string>영화 찾기 🔍</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="lb_recommendation">
+   <property name="geometry">
+    <rect>
+     <x>80</x>
+     <y>230</y>
+     <width>781</width>
+     <height>401</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>13</pointsize>
+     <weight>50</weight>
+     <bold>false</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">
+     QLabel {
+         background-color: #FFFFFF;
+         border: 2px dashed #D1E8E2;
+         border-radius: 20px;
+         padding: 25px;
+         color: #4A4A4A;
+         line-height: 150%;
+     }
+    </string>
+   </property>
+   <property name="text">
+    <string>오른쪽 상단에서 좋아하는 영화를 선택하면
+     AI가 찰떡같은 영화를 여기에 추천해 드려요! 🎬</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
