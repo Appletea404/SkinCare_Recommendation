@@ -70,11 +70,12 @@ except Exception as e:
 okt = Okt()
 
 try:
-    df_stopwords = pd.read_csv(BASE_DIR.parent / 'movie_review' / 'datasets' / 'stopwords.csv')
+    df_stopwords = pd.read_csv(BASE_DIR / 'datasets' / 'stopwords.csv')
     stopwords = df_stopwords['stopword'].tolist()
 except (FileNotFoundError, KeyError):
     stopwords = ['아', '휴', '아이구', '아이쿠', '아이고', '어', '나', '우리', '저희',
                  '따라', '의해', '을', '를', '에', '의', '가', '으로', '로', '에게']
+
 
 
 def get_db():
