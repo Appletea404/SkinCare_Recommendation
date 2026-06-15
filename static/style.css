@@ -2126,7 +2126,7 @@ nav { color:#5c6d62; letter-spacing:-.01em; }
 .mimo-page .ingredient-feature.avoid { background:linear-gradient(135deg,#f9eae3,#fff8f3); border-color:#ead1c5; }
 .mimo-page .ingredient-feature.recommend .ingredient-copy > p { color:var(--accent-teal); }
 .mimo-page .ingredient-feature.avoid .ingredient-copy > p { color:var(--accent-clay); }
-.mimo-page .ingredient-copy h3 { font-family:var(--brand-serif); font-size:22px; letter-spacing:-.03em; }
+.mimo-page .ingredient-copy h3 { font-size:22px; letter-spacing:-.03em; }
 .ingr-icon-wrap { position:absolute; inset:0; display:flex; align-items:center; justify-content:center; }
 .ingr-icon-bg { width:72px; height:72px; border-radius:50%; display:flex; align-items:center; justify-content:center; }
 .ingr-icon-bg svg { width:34px; height:34px; }
@@ -2960,7 +2960,6 @@ nav { color:#5c6d62; letter-spacing:-.01em; }
 }
 .mimo-page .matched-case > span { color:#9d2948; font-size:11px; font-weight:800; }
 .mimo-page .matched-case p { color:#5f414b; font-size:13px; line-height:1.7; }
-.mimo-page .matched-profile-note { display:block; margin-top:8px; color:#9d7a00; font-size:11px; background:#fffbe6; border-left:3px solid #f0c040; padding:6px 10px; border-radius:0 6px 6px 0; }
 .mimo-page .basis-source-note {
   margin-top:10px;
   color:#806a72;

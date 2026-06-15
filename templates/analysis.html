@@ -583,17 +583,6 @@
       });
       const matchedQEl = document.getElementById('matched-question');
       matchedQEl.textContent = (basis.matched_question || '').replace(/^\d+대\s*(이상\s*)?(여성|남성)으로\s*/,'');
-      const prevNote = matchedQEl.nextElementSibling;
-      if (prevNote && prevNote.classList.contains('matched-profile-note')) prevNote.remove();
-      const sel = basis.selected_profile || {};
-      const mat = basis.matched_profile || {};
-      const profileDiffers = Object.keys(sel).some(function (k) { return sel[k] !== mat[k]; });
-      if (profileDiffers) {
-        const note = document.createElement('small');
-        note.className = 'matched-profile-note';
-        note.textContent = '※ 선택 프로필(' + Object.values(sel).join(' · ') + ')과 일치하는 데이터가 부족하여 유사 사례(' + Object.values(mat).join(' · ') + ') 기반으로 가이드를 구성했습니다.';
-        matchedQEl.insertAdjacentElement('afterend', note);
-      }
     }
 
     function renderDetailedGuide(data) {
